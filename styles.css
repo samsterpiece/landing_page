@@ -1,4 +1,4 @@
-body{
+body {
     background-color: lightpink;
 }
 
@@ -7,7 +7,7 @@ body{
     font-size: 18px;
 }
 
-.header-content{
+.header-content {
 
     background: url("sam_banner.png");
     background-size: 100% 100%;
@@ -16,10 +16,10 @@ body{
     background-position: center center;
     height: 400px;
     max-width: 2365.270px;
-   
+
 }
 
-.header-links{
+.header-links {
     display: flex;
     gap: 16px;
     color: black;
@@ -36,13 +36,13 @@ body{
     justify-content: flex-end;
 }
 
-a{
+a {
     text-decoration: none;
     color: inherit;
 }
 
 /*Underlines link when hovered over */
-a:hover{
+a:hover {
     text-decoration: underline;
 }
 
@@ -61,23 +61,23 @@ h2 {
     width: 500px;
     font-size: 18px;
     color: red;
-    font-weight:900;
+    font-weight: 900;
     font-size: 22px;
 
 }
 
-.info-container{
+.info-container {
     display: flex;
     flex: 1 0;
     flex-direction: column;
     align-items: center;
 }
 
-.main-header{
+.main-header {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
 }
- 
+
 
 .about-section {
     display: flex;
@@ -98,8 +98,8 @@ h2 {
     flex: 1 0;
 }
 
-.personal-info{
-    
+.personal-info {
+    padding: 200px;
     margin: 16px;
     height: 100px;
 }
@@ -115,6 +115,7 @@ h2 {
 
 .card {
     display: flex;
+    /* width: 340px; */
     border: 5px solid black;
     border-radius: 25px;
     flex: 1 0;
@@ -123,6 +124,30 @@ h2 {
     height: 300px;
     font-size: 30px;
 
+}
+
+.college {
+    display: flex;
+    flex: 1 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.college img {
+
+    height: 300px;
+
+}
+
+.game{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game img{
+    height: 300px;
 }
 
 .quote {
@@ -138,19 +163,19 @@ h2 {
 .quote-text {
     display: flex;
     align-self: center;
-    flex:1 0;
+    flex: 1 0;
     flex-wrap: wrap;
-    
+
 }
 
-.quote-name{
+.quote-name {
     display: flex;
     align-self: flex-end;
     flex: 1 0;
     justify-content: flex-end;
 }
 
-.action-container{
+.action-container {
     display: flex;
     justify-content: center;
 }
@@ -165,7 +190,7 @@ h2 {
     height: 200px;
     width: 1100px;
     align-items: center;
-   
+
 }
 
 .call-text {
@@ -173,7 +198,7 @@ h2 {
     flex-direction: column;
     align-items: center;
     gap: 16px;
-  
+
 }
 
 /* .call-text,
@@ -182,23 +207,23 @@ p {
     padding: 15px;
 
 } */
-.text-container{
-   font-size: 32px;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   flex: 1 0;
-   color: black;
+.text-container {
+    font-size: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0;
+    color: black;
 
 }
 
-.action-container p{
+.action-container p {
     margin: 0px;
 }
 
 
-.call-action button{
+.call-action button {
     display: flex;
     height: 59.992px;
     width: 193.996px;
@@ -208,7 +233,7 @@ p {
     align-self: center;
     font-size: 25px;
     background-image: url("twitter.png");
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     color: white;
     background-color: black;
 }
