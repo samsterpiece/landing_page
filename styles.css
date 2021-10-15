@@ -1,51 +1,74 @@
+body{
+    background-color: lightpink;
+}
 
-.header-content{
+.header-content {
     background: #1F2937;
     color: #E5E7EB;
     font-size: 18px;
-    flex-grow: 1;
 }
 
-.header-links{
-    display: flex;    
+.header-content{
+
+    background: url("sam_banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    filter: brightness(60%);
+    height: 400px;
+    max-width: 2365.270px;
+   
+}
+
+.header-links {
+    display: flex;
     gap: 16px;
+    font-size: 18px;
 }
 
-.header-logo{
+.header-logo {
     display: flex;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
     font-weight: bolder;
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
-h1{
-    display:flex;
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/*Underlines link when hovered over */
+a:hover{
+    text-decoration: underline;
+}
+
+
+h1 {
+    display: flex;
     font-size: 48px;
-    color:#F9FAF8;
+    color: #fafff5;
     margin: 35px;
     margin-left: 0px;
     margin-bottom: 0px;
 }
 
-h2{
+h2 {
     display: flex;
     width: 500px;
     font-size: 18px;
-    color: #E5E7EB;
+    color: #fff0c1;
 
 }
 
-
-/* body{
-    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.9)), url("sam_banner.png");
-    height: auto;
-    max-width: auto;
-    background-position: center;
-    background-repeat:no-repeat;
-    position:relative;
-
+.info-container{
+    padding: 32px;
 }
- */
+
+
+ 
 
 .about-section {
     display: flex;
@@ -55,16 +78,22 @@ h2{
     color: #1F2937;
 }
 
-.about-me, 
-.personal-info{
+.about-me,
+.personal-info {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 
     font-size: 36px;
-    font-weight: bolder; 
+    font-weight: bolder;
     margin: 32px;
+}
+
+.personal-info{
+    
+    margin: 16px;
+    height: 100px;
 }
 
 /* .personal-info {
@@ -79,28 +108,26 @@ h2{
 .card {
     display: flex;
     border: 5px solid black;
+    border-radius: 25px;
     gap: 12px;
-    flex: 1;
+    flex: 1 0;
     margin: 5px;
-    height: 250px;
     align-items: center;
-    width: 400px;
 
 }
 
 .quote {
-
+    
     background-color: #E5E7EB;
-
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    margin: 35px;
 }
 
 .quote-text {
     display: flex;
-    font-size: 36px;
-    color: #1F2937;
-    font-style: italic;
     justify-content: center;
-    padding: 20
 }
 
 /* .hero-second-text {
@@ -112,11 +139,12 @@ h2{
     display: flex;
     justify-content: center;
     margin: 16px;
+    background-color: orchid;
 }
 
 .call-text {
     display: flex;
-    background-color: #3882F6;
+    background-color: #f552cc;
     align-items: center;
     gap: 16px;
 }
@@ -133,4 +161,7 @@ p {
     display: flex;
     justify-content: center;
     background-color: #1F2937;
+    padding: 40px;
+    color: #F9FAF8;
+    font-size: 24px;
 }
