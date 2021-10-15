@@ -10,6 +10,7 @@ body{
 .header-content{
 
     background: url("sam_banner.png");
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -120,6 +121,7 @@ h2 {
     margin: 5px;
     justify-content: center;
     height: 300px;
+    font-size: 30px;
 
 }
 
